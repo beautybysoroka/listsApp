@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(100px, 200px) auto;
+}
+
+.wrapper ul,
+.wrapper li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
